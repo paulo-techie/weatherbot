@@ -1,6 +1,6 @@
-# Project Name
+# Weather Bot
 
-> One paragraph statement about the project.
+> A telegram bot that describes today's weather ...
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,7 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby
 
 ## Live Demo
 
@@ -30,6 +28,10 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ### Install
+
+gem install telegram-bot-ruby
+gem install open-weather
+bundle install
 
 ### Usage
 
