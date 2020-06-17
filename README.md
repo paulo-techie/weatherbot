@@ -10,10 +10,6 @@ Additional description about the project and its features.
 
 - Ruby
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
@@ -25,7 +21,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Ruby
+
 ### Setup
+
+Copy weatherbot folder to your working directory
 
 ### Install
 
@@ -35,25 +35,21 @@ bundle install
 
 ### Usage
 
+ruby bin/main.rb
+
 ### Run tests
 
-### Deployment
+rspec
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 Paul Omondi
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@paulo-techie](https://github.com/githubhandle)
+- Linkedin: [@paul-o-43051a31](https://www.linkedin.com/in/paul-o-43051a31/)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
