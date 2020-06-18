@@ -5,6 +5,7 @@
 ![screenshot](./app_screenshot.png)
 
 The program creates and initiazes a Telegram bot. The program then retrieves the user name for a friendly greeting. Then program then uses a geolocation API service to detect your country location using your IP address. The longitude and latitude from the location data retrieved using the IP address is used is then passed on to weather API to provide the name of the local region and the weather description which is then displayed as part of the greeting in the telegram message from the telegram bot. 
+When running the program you can use a VPN to change your location and you will see a greeting with the weather description of your chosen country and region! :)
 
 ## Built With
 
