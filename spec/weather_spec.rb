@@ -3,9 +3,9 @@ require './lib/weather_desc'
 
 describe Weather do
   before(:each) do
-  allow(subject).to receive(:country_name) {'Kenya'}
-  allow(subject).to receive(:region) {'Kenya'}
-  allow(subject).to receive(:weather_description) {'scattered clouds'}
+    allow(subject).to receive(:country_name) { 'Kenya' }
+    allow(subject).to receive(:region) { 'Kenya' }
+    allow(subject).to receive(:weather_description) { 'scattered clouds' }
   end
 
   describe 'initialize' do
@@ -27,5 +27,4 @@ describe Weather do
       expect(subject.make_request_to_api_endpoint).to be_a(String)
     end
   end
-
 end
