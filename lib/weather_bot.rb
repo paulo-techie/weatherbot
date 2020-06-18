@@ -7,7 +7,8 @@ class WeatherBot
     Telegram::Bot::Client.run(token) do |bot|
         bot.listen do |message|
             weather = Weather.new
-            bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}! Welcome to your friendly weatherbot ...\nWe expect #{weather.weather_description} today!\nGoodbye ...")
+            bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}!\n"+
+              "Welcome to your friendly weatherbot!\n#{weather.region} is a beautiful country.\nWe expect #{weather.weather_description} in your area today ...\nGoodbye ...")
             return
         end
     end
