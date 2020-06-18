@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './lib/weather_bot'
 require './lib/weather_desc'
 
