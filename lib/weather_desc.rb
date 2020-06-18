@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'telegram/bot'
 require 'net/http'
 require 'json'
@@ -7,6 +5,7 @@ require 'openssl'
 require 'uri'
 require 'open-uri'
 
+# weather_desc.rb
 class Weather
   attr_reader :weather_description, :country_name, :region
 
@@ -17,7 +16,9 @@ class Weather
   end
 
   def make_request_to_api_endpoint
-    url = "http://api.openweathermap.org/data/2.5/weather?#{location}&appid=2745510d199eb84e68a506d68e71467a"
+    api = '2745510d199eb84e68a506d68e71467a'
+    url_data = 'http://api.openweathermap.org/data/2.5/weather?'
+    url = "#{url_data}#{location}&appid=#{api}"
     uri = URI(url)
     response = Net::HTTP.get(uri)
     parsed = JSON.parse(response)
