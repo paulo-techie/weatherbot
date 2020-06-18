@@ -1,33 +1,35 @@
 # Weather Bot
 
-> A telegram bot that describes today's weather ...
+> A friendly telegram bot that describes the weather today in your location ...
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+The program creates and initiazes a Telegram bot. The program then retrieves the user name for a friendly greeting. Then program then uses a geolocation API service to detect your country location using your IP address. The longitude and latitude from the location data retrieved using the IP address is used is then passed on to weather API to provide the name of the local region and the weather description which is then displayed as part of the greeting in the telegram message from the telegram bot. 
 
 ## Built With
 
 - Ruby
 
+## APIs
+
+- https://core.telegram.org/bots/api
+- http://api.openweathermap.org
+- https://reallyfreegeoip.org
+
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Ruby
+Ruby (at least ver 2.1)
 
 ### Setup
 
 Copy weatherbot folder to your working directory
 
-### Install
+### Install gems
 
 gem install telegram-bot-ruby
 gem install open-weather
@@ -43,7 +45,7 @@ rspec
 
 
 
-## Authors
+## Author
 
 👤 Paul Omondi
 
