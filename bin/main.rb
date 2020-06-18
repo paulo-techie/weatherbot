@@ -1,6 +1,6 @@
 require './lib/weather_bot'
 require './lib/weather_desc'
 
-puts 'Welcome to your friendly Telegram weatherbot!'
+puts 'Open your Telegram app and interact with your weatherbot!'
 
 WeatherBot.new

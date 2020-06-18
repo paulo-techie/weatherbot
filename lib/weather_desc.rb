@@ -14,8 +14,6 @@ class Weather
         @weather_description = make_request_to_api_endpoint
     end
 
-        private
-
     def make_request_to_api_endpoint
         url = "http://api.openweathermap.org/data/2.5/weather?#{location}&appid=2745510d199eb84e68a506d68e71467a"
         uri = URI(url)
