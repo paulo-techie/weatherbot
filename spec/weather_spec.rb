@@ -2,7 +2,6 @@ require './lib/weather_bot'
 require './lib/weather_desc'
 
 describe Weather do
-
   describe 'attr_reader' do
     it 'should return string of weather description' do
       expect(subject.weather_description).to be_a(String)
@@ -36,5 +35,4 @@ describe Weather do
       expect(subject.weather_description).to eql('scattered clouds')
     end
   end
-
 end
