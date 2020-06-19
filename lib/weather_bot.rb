@@ -1,11 +1,13 @@
 require 'telegram/bot'
 require './lib/weather_desc'
+require 'dotenv'
+Dotenv.load('./.env')
 
 # weather_bot.rb
 class WeatherBot
   private
   def initialize
-    token = '1295585207:AAFPZlHbo2WWdh9oseszmgG4qsS6Yba7yMs'
+    token = ENV['TOKEN']
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
         weather = Weather.new

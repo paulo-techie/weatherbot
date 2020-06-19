@@ -17,7 +17,7 @@ class Weather
 
   private
   def make_request_to_api_endpoint
-    api = '2745510d199eb84e68a506d68e71467a'
+    api = ENV['API_KEY']
     url_data = 'http://api.openweathermap.org/data/2.5/weather?'
     url = "#{url_data}#{location}&appid=#{api}"
     uri = URI(url)
