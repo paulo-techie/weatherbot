@@ -23,10 +23,12 @@ When running the program you can use a VPN to change your location and you will 
 
 To get a local copy up and running follow these simple steps:
 
-### Prerequisites - Ruby and Telegram bot
+### Prerequisites - Ruby, RubyGems and Telegram bot
 
 Make sure you have the latest version of Ruby installed for your operating system from https://www.ruby-lang.org/en/downloads/
-Check using using 'ruby -v' on the command line to make sure it is at least version 2.1 and above.
+Check using using 'ruby -v' on the command line or terminal to make sure it is at least version 2.1 and above.
+
+Download and install latest RubyGems from https://rubygems.org/pages/download and then confirm it is updated by using 'gem update --system' or 'gem install rubygems-update' and 'update_rubygems'  on the command line or terminal.
 
 Install Telegram on your device from https://telegram.org/ and make sure you have a working telegram account. Access the weatherbot from: t.me/hali_ya_anga_bot
 
@@ -37,7 +39,7 @@ Clone or download https://github.com/paulo-techie/weatherbot files to your worki
 
 ### Install Gems
 
-From the command-line type the following to install required gems:
+From the command-line or terminal check 'gem list --local' and type the following commands to install required gems if not listed:
 
 gem install telegram-bot-ruby
 
@@ -48,7 +50,7 @@ gem install rspec
 
 ### Usage
 
-Make sure you are in the working folder or move to it using either one of the following on the command line: 
+Make sure you are in the working folder or move to it using either one of the following on the command line or terminal: 
 cd weatherbot 
 chdir weatherbot
 
@@ -58,7 +60,7 @@ ruby bin/main.rb
 
 ### Run tests
 
-Run RSPEC tests using the following on the command line:
+Run RSPEC tests using the following on the command line or terminal:
 
 rspec
 
