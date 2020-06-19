@@ -3,6 +3,7 @@ require './lib/weather_desc'
 
 # weather_bot.rb
 class WeatherBot
+  private
   def initialize
     token = '1295585207:AAFPZlHbo2WWdh9oseszmgG4qsS6Yba7yMs'
     Telegram::Bot::Client.run(token) do |bot|

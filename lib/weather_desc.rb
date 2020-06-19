@@ -15,6 +15,7 @@ class Weather
     @weather_description = make_request_to_api_endpoint
   end
 
+  private
   def make_request_to_api_endpoint
     api = '2745510d199eb84e68a506d68e71467a'
     url_data = 'http://api.openweathermap.org/data/2.5/weather?'
@@ -27,6 +28,7 @@ class Weather
     weather_description
   end
 
+  private
   def location
     url = 'https://reallyfreegeoip.org/json/'
     uri = URI(url)
