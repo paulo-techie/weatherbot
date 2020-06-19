@@ -29,8 +29,6 @@ class Weather
     weather_description
   end
 
-  private
-  
   def location
     url = 'https://reallyfreegeoip.org/json/'
     uri = URI(url)

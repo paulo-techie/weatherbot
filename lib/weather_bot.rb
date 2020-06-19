@@ -6,7 +6,7 @@ Dotenv.load('./.env')
 # weather_bot.rb
 class WeatherBot
   private
-  
+
   def initialize
     token = ENV['TOKEN']
     Telegram::Bot::Client.run(token) do |bot|
