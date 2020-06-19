@@ -10,37 +10,55 @@ When running the program you can use a VPN to change your location and you will 
 ## Built With
 
 - Ruby
+- Telegram
 
 ## APIs
 
-- https://core.telegram.org/bots/api
+- BotFather (https://core.telegram.org/bots/api)
 - http://api.openweathermap.org
 - https://reallyfreegeoip.org
 
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps:
 
-### Prerequisites
+### Prerequisites - Ruby and Telegram bot
 
-Ruby (at least ver 2.1)
+Make sure you have the latest version of Ruby installed for your operating system from https://www.ruby-lang.org/en/downloads/
+Check using using 'ruby -v' on the command line to make sure it is at least version 2.1 and above.
+
+Install Telegram on your device from https://telegram.org/ and make sure you have a working telegram account. Access the weatherbot from: t.me/hali_ya_anga_bot
 
 ### Setup
 
-Copy weatherbot folder to your working directory
+Clone https://github.com/paulo-techie/weatherbot to your working folder
 
-### Install gems
+
+### Install Gems
+
+From the command-line type the following to install required gems:
 
 gem install telegram-bot-ruby
-gem install open-weather
-bundle install
+
+gem install dotenv
+
+gem install rspec
+
 
 ### Usage
+
+Make sure you are in the working folder or move to it using either one of the following on the command line: 
+cd weatherbot 
+chdir weatherbot
+
+Run the program using the following:
 
 ruby bin/main.rb
 
 ### Run tests
+
+Run RSPEC tests using the following on the command line:
 
 rspec
 
