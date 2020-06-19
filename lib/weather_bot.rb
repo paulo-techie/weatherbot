@@ -1,5 +1,5 @@
 require 'telegram/bot'
-require_relative './lib/weather_desc'
+require_relative '../lib/weather_desc.rb'
 require 'dotenv'
 Dotenv.load('./.env')
 

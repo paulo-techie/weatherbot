@@ -1,5 +1,5 @@
-require_relative './lib/weather_bot'
-require_relative './lib/weather_desc'
+require_relative '../lib/weather_bot.rb'
+require_relative '../lib/weather_desc.rb'
 
 describe Weather do
   describe 'attr_reader' do
