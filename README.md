@@ -39,7 +39,9 @@ Clone or download https://github.com/paulo-techie/weatherbot files to your worki
 
 ### Install Gems
 
-From the command-line or terminal check 'gem list --local' and type the following commands to install required gems if not listed:
+From the command-line or terminal run the command 'gem list --local' to check if you have gems listed below, 
+and if not then enter the command 'bundle install' to install the dependencies from the Gemfile,
+or use the following commands to install required gems manually as needed:
 
 gem install telegram-bot-ruby
 
