@@ -32,7 +32,7 @@ Install Telegram on your device from https://telegram.org/ and make sure you hav
 
 ### Setup
 
-Clone https://github.com/paulo-techie/weatherbot to your working folder
+Clone or download https://github.com/paulo-techie/weatherbot files to your working folder
 
 
 ### Install Gems
