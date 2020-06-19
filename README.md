@@ -30,7 +30,7 @@ Check using using 'ruby -v' on the command line or terminal to make sure it is a
 
 Download and install latest RubyGems from https://rubygems.org/pages/download and then confirm it is updated by using 'gem update --system' or 'gem install rubygems-update' and 'update_rubygems'  on the command line or terminal.
 
-Install Telegram on your device from https://telegram.org/ and make sure you have a working telegram account. Access the weatherbot from: t.me/hali_ya_anga_bot
+Install Telegram on your device from https://telegram.org/ and make sure you have a working telegram account. Access the weatherbot from: https://t.me/hali_ya_anga_bot
 
 ### Setup
 
